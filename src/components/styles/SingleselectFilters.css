@@ -1,0 +1,10 @@
+.single__select{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+@media (max-width: 800px) {
+    .single__select{
+        flex-direction: column;
+    }
+  }

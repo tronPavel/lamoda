@@ -1,0 +1,22 @@
+#root {
+  width: 95%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+aside {
+  width: 190px;
+}
+h2{
+  margin: 15px 0 5px;
+}
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+}

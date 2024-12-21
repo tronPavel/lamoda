@@ -1,0 +1,36 @@
+.product {
+  margin: 10px;
+  width: 200px;
+  background-color: #eeeded;
+}
+.product__img {
+  width: 200px;
+  
+}
+.product__img img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover; 
+}
+.product__info {
+  padding: 0 10px 10px;
+}
+.product__info h3 {
+  margin: 0;
+}
+.product__description p {
+  margin: 0;
+  color: #acaaaa;
+}
+.description__list {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  margin: 0;
+}
+.description__list dt {
+  font-weight: bold;
+  margin-top: 5px;
+}
+.description__list dd {
+  margin-top: 5px;
+}

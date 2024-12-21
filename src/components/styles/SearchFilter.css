@@ -1,0 +1,11 @@
+.search {
+    margin: 10px 0;
+    width: 80%;
+    border-radius: 8px;
+    border: 1px solid gainsboro;
+    padding: 0.6em 1.2em;
+    display: block;
+    min-height: 1.5em;
+    margin-bottom: 10px;
+  }
+  
